@@ -1,6 +1,6 @@
 <h1 align=center>Desafio JavaScript - Sorteador</h1>
 <br>
-<p align=center>Um sorteador de números aleatórios.
+<p align=center>Aplicação para realizar sorteios de números.
   <br>
   Desenvolvido durante as aulas lá no <a href="https://rodolfomori.com.br/devclub/" target="_blank">Dev Club</a></p>
 <div align=center>
