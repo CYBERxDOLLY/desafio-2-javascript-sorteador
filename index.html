@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="./script.js"></script>
+    <title>DevClub - Desafio JavaScript 02 - Sorteador</title>
+</head>
+<body>
+    <audio id="myAudio">
+        <source src="./assets/sound/mouse-click.mp3" type="audio/mp3">
+    </audio>
+
+    <img class="dice-logo" src="./assets/img/dados-3.gif" alt="dado-logo">
+    
+    <h1>Sorteador Dev Club</h1>
+
+    <main>
+        <h3>Insira um número</h3>
+        <section>
+            <input class="input-min" type="number" name="min" placeholder="De">
+            <input class="input-max" type="number" name="max" placeholder="Até">
+        </section>
+
+        <div>
+            <button onclick="playAudio()" class="draw-button">Sortear</button>
+            <p>Seu número sorteado é</p>
+            <p class="result-hidden" id="result-number"></p>
+        </div>
+    </main>
+</body>
+</html>
