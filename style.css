@@ -120,3 +120,42 @@ p{
 #result-number.result-hidden {
     opacity: 0;
 }
+
+@media screen and (max-width: 460px) {
+    .dice-logo {
+        width: 100px;
+    }
+
+    h1 {
+        display: flexbox;
+        font-size: 40px;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    h3 {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .dice-logo {
+        width: 80px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
