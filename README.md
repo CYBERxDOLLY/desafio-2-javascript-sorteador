@@ -8,4 +8,4 @@
 </div>
 <br>
 
-<img src="https://github.com/CYBERxDOLLY/desafio-2-javascript-sorteador/blob/main/assets/img/sorteador-dev-club.png?raw=true">
+<a href="https://cyberxdolly.github.io/desafio-2-javascript-sorteador/"><img src="https://github.com/CYBERxDOLLY/desafio-2-javascript-sorteador/blob/main/assets/img/sorteador-dev-club.png?raw=true"></a>
