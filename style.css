@@ -23,7 +23,7 @@ h1 {
     font-weight: 700;
     font-size: 60px;
     color: #4A19BD;
-    background-color: rgba(74,25,189, 0.1);
+    background-color: rgba(74, 25, 189, 0.1);
     border-radius: 40px;
     text-shadow: 0px 0px 30px #DB3F10;
 }
@@ -45,7 +45,7 @@ h3 {
 section {
     border: 1px solid #4A19BD;
     background-color: #10297C;
-    border-radius:  20px;
+    border-radius: 20px;
     margin-top: 4px;
     margin-bottom: 10px;
     width: 100%;
@@ -65,7 +65,8 @@ input {
     font-size: 25px;
 }
 
-input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
@@ -101,7 +102,7 @@ button:active {
     font-size: 30px;
 }
 
-p{
+p {
     color: #FFFFFF;
     font-size: 28px;
 }
