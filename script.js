@@ -7,7 +7,7 @@ function drawNumber() {
     const resultElement = document.getElementById("result-number");
 
     if (min >= max) {
-        alert("Valor mínimo não pode ser maior ou igual ao valor máximo!")
+        alert("O valor mínimo não pode ser maior ou igual ao valor máximo!")
     } else {
         const result = Math.floor(Math.random() * (max - min + 1)) + min;
 
